@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Quiz Application</title>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Quiz Application</h1>
+  </header>
+
+  <div id="quizzes">
+    <div class="quiz-container" id="quiz1">
+      <h2>Quiz 1</h2>
+      <button onclick="startQuiz('Student A', 1)">Start Quiz</button>
+    </div>
+
+    <div class="quiz-container" id="quiz2">
+      <h2>Quiz 2</h2>
+      <button onclick="startQuiz('Student B', 2)">Start Quiz</button>
+    </div>
+
+    <div class="quiz-container" id="quiz3">
+      <h2>Quiz 3</h2>
+      <button onclick="startQuiz('Student C', 3)">Start Quiz</button>
+    </div>
+  </div>
+
+  <div id="leaderboard">
+    <h2>Leaderboard</h2>
+    <ol id="rankings"></ol>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
